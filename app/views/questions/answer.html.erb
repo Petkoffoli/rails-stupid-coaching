@@ -1,0 +1,15 @@
+
+<div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
+  <div class="alert alert-warning" role="alert"">
+    <p><%= @question %></p>
+    <p><em>-You</em></p>
+    <br>
+  </div>
+
+  <div class="alert alert-warning" role="alert">
+    <p><strong><%= @answer %></strong></p>
+    <p><em>-Your coach</em></p>
+    <br>
+    <%= link_to 'Ask a new question', ask_path %>
+  </div>
+</div>
